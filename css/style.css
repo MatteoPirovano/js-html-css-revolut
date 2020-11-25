@@ -28,6 +28,9 @@ a {
   text-decoration: none;
   color: grey;
 }
+a:hover {
+  color: black;
+}
 .clearfix {
   content: "";
   clear: both;
@@ -42,4 +45,15 @@ a {
 #logo {
   height: 25px;
   vertical-align: middle;
+}
+.p_relative {
+  position: relative;
+}
+.dropdown {
+  min-height: 150px;
+  width: 150px;
+  position: absolute;
+  right: 334px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
 }
